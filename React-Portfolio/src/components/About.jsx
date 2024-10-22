@@ -23,7 +23,7 @@ const About = () => {
               </p>
               <br />
               <br />
-              <a href="/React-Portfolio/public/PARI-ARUL Resume.pdf" download="PARI-ARUL Resume.pdf">
+              <a href="/React-Portfolio/public/PARI-ARUL Resume.pdf" download='/React-Portfolio/public/PARI-ARUL Resume.pdf'>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
