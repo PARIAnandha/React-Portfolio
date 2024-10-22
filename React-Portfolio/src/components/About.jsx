@@ -23,7 +23,7 @@ const About = () => {
               </p>
               <br />
               <br />
-              <a href="/PARI-ARUL Resume.pdf" download>
+              <a href="/PARI-ARUL Resume.pdf" download="PARI-ARUL Resume.pdf">
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
