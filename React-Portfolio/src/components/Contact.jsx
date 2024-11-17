@@ -7,7 +7,7 @@ const Contact = () => {
     message: ''
   });
   const [status, setStatus] = useState('');
-
+   const backend='http://localhost:8000'
   const contact_info = [
     { logo: 'mail', text: 'parianandha@gmail.com' },
     { logo: 'logo-whatsapp', text: '7548825840' },
@@ -26,7 +26,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:8000/api/messages', {
+      const response = await fetch(`${backend}/api/messages`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
