@@ -8,6 +8,7 @@ import 'swiper/css/autoplay';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 import project1 from '../assets/project1.png';
+import CollegeImg from '../assets/College Inter Face.png'
 
 
 import project_person from '../assets/Project-removebg-preview.png';
@@ -21,17 +22,12 @@ const Project = () => {
       live_link: 'https://pokemon-api-eight-inky.vercel.app/',
     },
     {
-      img: project2,
-      name: 'Sing In & Sign Up',
-      github_link: 'https://github.com/PARIAnandha/Pokemon-API',
-      live_link: 'https://pokemon-api-eight-inky.vercel.app/',
+      img: CollegeImg,
+      name: 'College Application',
+      github_link: 'https://github.com/PARIAnandha/College-Application',
+      live_link: 'https://college-application-front.vercel.app/',
     },
-    {
-      img: project3,
-      name: 'E-commerce',
-      github_link: 'https://github.com/PARIAnandha/Pokemon-API',
-      live_link: 'https://pokemon-api-eight-inky.vercel.app/',
-    },
+
 
   ];
 
