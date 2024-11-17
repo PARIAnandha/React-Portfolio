@@ -8,8 +8,7 @@ import 'swiper/css/autoplay';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 import project1 from '../assets/project1.png';
-import project2 from '../assets/project2.png';
-import project3 from '../assets/project3.jpg';
+
 
 import project_person from '../assets/Project-removebg-preview.png';
 
