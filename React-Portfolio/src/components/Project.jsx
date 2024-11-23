@@ -17,9 +17,9 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: 'Pokemon API',
-      github_link: 'https://github.com/PARIAnandha/Pokemon-API',
-      live_link: 'https://pokemon-api-eight-inky.vercel.app/',
+      name: 'Tracker',
+      github_link: 'https://github.com/PARIAnandha/Tracker',
+      live_link: 'https://tracker-1rhv.onrender.com/',
     },
     {
       img: CollegeImg,
