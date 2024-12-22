@@ -17,14 +17,14 @@ const Hireme = () => {
             Do you need any work done?
           </h2>
           <p className="text-justify max-w-lg text-sm text-gray-200 leading-6">
-            I am a Full Stack Developer skilled in HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS, and I have extensive experience with Git, GitHub, and Redux. 
-            I have worked on various projects using these technologies, creating user-friendly and responsive websites. 
-            I can turn design ideas into working web pages and make sure they look great and work well. 
-            I use Git for version control, GitHub for collaboration, and Redux for state management in my applications. 
-            If you need someone reliable and skilled to handle your web development tasks, I'd be happy to help.
+          I am a Full Stack Developer skilled in HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS, Node js and Python. I also have extensive experience with Git, GitHub, Redux, and database technologies such as mongoDB , SQL.
+
+I have worked on various projects using these technologies, creating user-friendly and responsive websites. With my proficiency in Python, I am capable of building efficient backends, handling server-side logic, and integrating APIs seamlessly.
+
+I can turn design ideas into working web pages and ensure they look great and function well. Whether it’s front-end development using modern libraries and frameworks or backend development using Python and related technologies, I am well-equipped to handle the full scope of web development
           </p>
         </div>
-        <div className="lg:w-1/2 w-full flex justify-center lg:justify-end">
+        <div className="lg:w-1/2 w-full flex justify-center lg:justify-end ma">
           <img
             src={hireMe}
             alt="Hire Me"

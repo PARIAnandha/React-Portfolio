@@ -5,6 +5,8 @@ import { faMdb } from '@fortawesome/free-brands-svg-icons'; // MongoDB
 import { faServer } from '@fortawesome/free-solid-svg-icons'; // ExpressJS alternative
 import { faCube } from '@fortawesome/free-solid-svg-icons'; // Material-UI alternative
 import { faSyncAlt, faCodeBranch } from '@fortawesome/free-solid-svg-icons'; // Redux, Router alternatives
+import { faPython } from '@fortawesome/free-brands-svg-icons'; // Python
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'; // SQL
 
 const Skills = () => {
   const skills = [
@@ -62,6 +64,16 @@ const Skills = () => {
       icon: faCodeBranch, // React Router icon (alternative)
       level: 'React Router',
       count: 70,
+    },
+    {
+      icon: faPython, // Python icon
+      level: 'Python',
+      count: 60,
+    },
+    {
+      icon: faDatabase, // SQL icon
+      level: 'SQL',
+      count: 75,
     },
   ];
 
