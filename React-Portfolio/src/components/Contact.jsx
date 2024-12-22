@@ -7,7 +7,7 @@ const Contact = () => {
     message: ''
   });
   const [status, setStatus] = useState('');
-   const backend='https://react-portfolio-backend-dfv9.onrender.com'
+   const backend='https://react-portfolio-backend-j9m1.onrender.com'
   const contact_info = [
     { logo: 'mail', text: 'parianandha@gmail.com' },
     { logo: 'logo-whatsapp', text: '7548825840' },
