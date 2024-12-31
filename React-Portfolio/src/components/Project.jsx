@@ -28,7 +28,7 @@ const Project = () => {
       type: 'Freelancing Project',
       name: 'TNPSC Liard',
       description: 'A website for TNPSC exam preparation with detailed study materials and resources.',
-      github_link: 'https://github.com/PARIAnandha/TNPSC-Liard',
+      github_link: 'https://github.com/PARIAnandha/TNPSC',
       live_link: 'https://tnpsc-liard.vercel.app/',
       image: 'https://via.placeholder.com/500x300?text=TNPSC+Liard', // Example image URL, replace with real one
       icon: faGithub, // Use appropriate icon if needed
