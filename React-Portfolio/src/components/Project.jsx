@@ -3,6 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact } from '@fortawesome/free-brands-svg-icons'; // React logo icon from free-brands-svg-icons
 import { faGithub } from '@fortawesome/free-brands-svg-icons'; // GitHub logo icon from free-brands-svg-icons
 import { faLink } from '@fortawesome/free-solid-svg-icons'; // Link icon from free-solid-svg-icons
+import project1 from '../assets/pokemon.png';
+import project2 from '../assets/jujusu.jpg';
+import project3 from '../assets/project3.png'; 
 
 const Project = () => {
   const projects = [
@@ -12,7 +15,7 @@ const Project = () => {
       description: 'An API to fetch Pokémon data with detailed statistics and images.',
       github_link: 'https://github.com/PARIAnandha/Pokemon',
       live_link: 'https://pokemon-ten-ochre-66.vercel.app/',
-      image: 'https://via.placeholder.com/500x300?text=Pokemon+API', // Example image URL, replace with real one
+      image: project1, // Correct usage of image variable
       icon: faReact,
     },
     {
@@ -21,7 +24,7 @@ const Project = () => {
       description: 'A platform to explore and watch Chinese anime with details and episodes.',
       github_link: 'https://github.com/PARIAnandha/Chainese-Anime',
       live_link: 'https://chainese-anime.vercel.app/',
-      image: 'https://via.placeholder.com/500x300?text=Chainese+Anime', // Example image URL, replace with real one
+      image: project2, // Correct usage of image variable
       icon: faGithub,
     },
     {
@@ -30,7 +33,7 @@ const Project = () => {
       description: 'A website for TNPSC exam preparation with detailed study materials and resources.',
       github_link: 'https://github.com/PARIAnandha/TNPSC',
       live_link: 'https://tnpsc-liard.vercel.app/',
-      image: 'https://via.placeholder.com/500x300?text=TNPSC+Liard', // Example image URL, replace with real one
+      image: project3, // Correct usage of image variable
       icon: faGithub, // Use appropriate icon if needed
     },
   ];

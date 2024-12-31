@@ -1,4 +1,5 @@
 import React from 'react';
+import { MapPinIcon } from '@heroicons/react/24/solid'; // Importing location icon
 import aboutImg from '../assets/hero.jpg';
 import resume from '../../src/assets/pari-resume.png';
 
@@ -14,7 +15,7 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto font-sans">
-                Highly skilled MERN Stack and Python developer with extensive experience in designing, developing, and deploying dynamic web applications. Proficient in front-end and back-end technologies, including React.js, Node.js, MongoDB, Express.js, and Python. With a proven track record of meeting tight deadlines and delivering high-quality, scalable solutions, I bring a deep understanding of responsive design principles, cross-browser compatibility, and SEO-friendly architectures.
+                Highly skilled MERN Stack developer with extensive experience in designing, developing, and deploying dynamic web applications. Proficient in front-end and back-end technologies, including React.js, Node.js, MongoDB, and Express.js. With a proven track record of meeting tight deadlines and delivering high-quality, scalable solutions, I bring a deep understanding of responsive design principles, cross-browser compatibility, and SEO-friendly architectures.
                 <br /> <br />
                 As a dedicated freelance professional, I have successfully delivered a diverse range of projects:
                 <ul className="list-disc ml-5 mt-2">
@@ -25,6 +26,11 @@ const About = () => {
                 <br />
                 A collaborative team player and self-starter, I am passionate about creating seamless user experiences and leveraging the latest technologies to solve complex challenges. My commitment to continuous learning ensures that I stay at the forefront of industry trends, enabling me to deliver innovative and impactful digital solutions.
               </p>
+              <br />
+              <div className="flex items-center gap-2 text-gray-400">
+                <MapPinIcon className="h-6 w-6 text-cyan-600" />
+                <span className="text-lg">Coimbatore, India</span>
+              </div>
               <br />
               <a href={resume} download={resume}>
                 <button className="btn-primary font-semibold">Download CV</button>
