@@ -5,8 +5,8 @@ import { faMdb } from '@fortawesome/free-brands-svg-icons'; // MongoDB
 import { faServer } from '@fortawesome/free-solid-svg-icons'; // ExpressJS alternative
 import { faCube } from '@fortawesome/free-solid-svg-icons'; // Material-UI alternative
 import { faSyncAlt, faCodeBranch } from '@fortawesome/free-solid-svg-icons'; // Redux, Router alternatives
-import { faPython } from '@fortawesome/free-brands-svg-icons'; // Python
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'; // SQL
+import { faJava } from '@fortawesome/free-brands-svg-icons'; // Java
+import { faCogs } from '@fortawesome/free-solid-svg-icons'; // Spring Boot
 
 const Skills = () => {
   const skills = [
@@ -66,13 +66,13 @@ const Skills = () => {
       count: 70,
     },
     {
-      icon: faPython, // Python icon
-      level: 'Python',
+      icon: faJava, // Java icon
+      level: 'Java',
       count: 60,
     },
     {
-      icon: faDatabase, // SQL icon
-      level: 'SQL',
+      icon: faCogs, // Spring Boot icon
+      level: 'Spring Boot',
       count: 75,
     },
   ];
