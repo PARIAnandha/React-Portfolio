@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'; // GitHub logo ic
 import { faLink } from '@fortawesome/free-solid-svg-icons'; // Link icon from free-solid-svg-icons
 import project1 from '../assets/pokemon.png';
 import project2 from '../assets/jujusu.jpg';
-import project3 from '../assets/project3.png'; 
+import project3 from '../assets/questions.avif'; 
 
 const Project = () => {
   const projects = [

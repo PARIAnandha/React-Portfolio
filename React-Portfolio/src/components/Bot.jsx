@@ -30,7 +30,7 @@ const Bot = () => {
         },
       });
 
-      // Check if the response is OK
+      // Check if the response is OK 
       if (response.ok) {
         setStatusMessage('Message sent successfully!'); // Set success message
         setIsOpen(false); // Close the message box after success
