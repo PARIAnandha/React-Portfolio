@@ -64,17 +64,7 @@ const Skills = () => {
       icon: faCodeBranch, // React Router icon (alternative)
       level: 'React Router',
       count: 70,
-    },
-    {
-      icon: faJava, // Java icon
-      level: 'Java',
-      count: 60,
-    },
-    {
-      icon: faCogs, // Spring Boot icon
-      level: 'Spring Boot',
-      count: 75,
-    },
+    }
   ];
 
   return (
