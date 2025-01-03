@@ -6,6 +6,8 @@ import { faLink } from '@fortawesome/free-solid-svg-icons'; // Link icon from fr
 import project1 from '../assets/pokemon.png';
 import project2 from '../assets/jujusu.jpg';
 import project3 from '../assets/questions.avif'; 
+import project4 from '../assets/project4.jpeg';
+import project5 from '../assets/my-web.jpg';
 
 const Project = () => {
   const projects = [
@@ -28,12 +30,30 @@ const Project = () => {
       icon: faGithub,
     },
     {
+      type: 'Own Project',
+      name: 'My-website',
+      description: 'A Full Stack Developer specializing in building dynamic and responsive web applications using modern technologies like React, Node.js, and MongoDB. Passionate about creating user-friendly designs and seamless backend functionality.',
+      github_link: 'https://github.com/PARIAnandha/React-Portfolio',
+      live_link: 'https://react-portfolio-frontend.onrender.com/',
+      image: project5, // Correct usage of image variable
+      icon: faGithub,
+    },
+    {
       type: 'Freelancing Project',
       name: 'TNPSC Liard',
       description: 'A website for TNPSC exam preparation with detailed study materials and resources.',
       github_link: 'https://github.com/PARIAnandha/TNPSC',
       live_link: 'https://tnpsc-liard.vercel.app/',
       image: project3, // Correct usage of image variable
+      icon: faGithub, // Use appropriate icon if needed
+    },
+    {
+      type: 'Freelancing Project',
+      name: 'Portfolio Website',
+      description: 'A responsive portfolio website showcasing my skills, projects, and experience as a Full Stack Developer. Designed with a clean layout and seamless navigation for an engaging user experience.',
+      github_link: 'https://github.com/PARIAnandha/pradhish-portfolio',
+      live_link: 'https://pradhish-portfolio.vercel.app/',
+      image: project4, // Correct usage of image variable
       icon: faGithub, // Use appropriate icon if needed
     },
   ];
@@ -48,7 +68,7 @@ const Project = () => {
       </div>
       <br />
       <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
-        {projects.slice(0, 2).map((project_info, i) => (  // Only display the first two own projects
+        {projects.slice(0, 3).map((project_info, i) => (  // Only display the first two own projects
           <div key={i} className="bg-slate-700 rounded-xl p-6 sm:w-1/2 lg:w-1/2 shadow-xl">
             <div className="relative mb-6">
               <img src={project_info.image} alt={project_info.name} className="rounded-xl w-full h-60 object-cover" />
@@ -85,7 +105,7 @@ const Project = () => {
       </div>
       <br />
       <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
-        {projects.slice(2).map((project_info, i) => (  // Only display the freelancing projects
+        {projects.slice(3).map((project_info, i) => (  // Only display the freelancing projects
           <div key={i} className="bg-slate-700 rounded-xl p-6 sm:w-1/2 lg:w-1/2 shadow-xl">
             <div className="relative mb-6">
               <img src={project_info.image} alt={project_info.name} className="rounded-xl w-full h-60 object-cover" />

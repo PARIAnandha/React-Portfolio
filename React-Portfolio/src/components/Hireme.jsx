@@ -1,5 +1,5 @@
 import React from 'react';
-import hireMe from '../assets/HereMe.jpg';
+import hireMe from '../assets/working.jpg';
 
 const Hireme = () => {
   return (
@@ -17,7 +17,7 @@ const Hireme = () => {
             Do you need any work done?
           </h2>
           <p className="text-justify max-w-lg text-sm text-gray-200 leading-6">
-            I am a Full Stack Developer skilled in HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS, Node.js, and MongoDB. I also have extensive experience with Git, GitHub, and Redux for state management.
+            I am a Full Stack Developer(MERN) skilled in HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS, Node.js,Express and MongoDB. I also have extensive experience with Git, GitHub, and Redux for state management.
             <br /><br />
             I have worked on various projects using these technologies, creating user-friendly and responsive websites. I excel at turning design ideas into functional web pages that look great and perform efficiently. Whether it’s front-end development using modern libraries and frameworks or backend development with Node.js and Express.js, I am well-equipped to handle the full scope of web development.
           </p>
